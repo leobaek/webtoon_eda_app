@@ -4,24 +4,22 @@ import numpy as np
 import matplotlib.pyplot as plt
 #matplotlib 패키지 한글 깨짐 처리 시작
 import matplotlib.pyplot as plt
-import platform
 import plotly.express as px
-if platform.system() == 'Darwin': #맥
-        plt.rc('font', family='AppleGothic') 
-elif platform.system() == 'Windows': #윈도우
-        plt.rc('font', family='Malgun Gothic') 
-elif platform.system() == 'Linux': #리눅스 (구글 콜랩)
-        #!wget "https://www.wfonts.com/download/data/2016/06/13/malgun-gothic/malgun.ttf"
-        #!mv malgun.ttf /usr/share/fonts/truetype/
-        #import matplotlib.font_manager as fm 
-        #fm._rebuild() 
-        plt.rc('font', family='Malgun Gothic') 
-plt.rcParams['axes.unicode_minus'] = False #한글 폰트 사용시 마이너스 폰트
 import platform
+
 from matplotlib import font_manager, rc
 plt.rcParams['axes.unicode_minus'] = False
-if platform.system() == 'Linux':
-    rc('font', family='NanumGothic') 
+
+if platform.system() == 'Darwin' :
+    rc('font', family='AppleGothic')
+elif platform.system() == 'Windows' :
+    path = 'C:/Windows/Fonts/malgun.ttf'
+    font_name = font_manager.FontProperties(fname=path).get_name()
+    rc('font', family=font_name)
+elif platform.system() == 'Linux' :
+    rc('font', family='NanumGothic')
+else:
+    print('Unknown system')
 
 
 
