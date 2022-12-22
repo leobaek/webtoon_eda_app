@@ -1,5 +1,5 @@
 # webtoon_eda_app
-![header](https://capsule-render.vercel.app/api?type=Waving&color=0:fc00ff,100:00dbde&height=220&section=header&text=webtoon%20search%20of%20eda%20APP&fontSize=50&&fontColor=ffff&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=Waving&color=0:fc00ff,100:00dbde&height=220&section=header&text=%20NAVER%20Webtoon%20search%20of%20eda%20APP&fontSize=50&&fontColor=ffff&animation=fadeIn)
 <br/>
 ### GRAPHENE911 :gem: <br/><br/>
 [![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white)](https://github.com/graphene911/)
@@ -58,13 +58,13 @@
 <br/>
 
 ## URL
-  - http://ec2-54-180-100-25.ap-northeast-2.compute.amazonaws.com:8501
+  - http://ec2-3-38-213-20.ap-northeast-2.compute.amazonaws.com:8501/
 
 
 <br/>
 
 ## Reference
-  - 차량 데이터 : https://www.kaggle.com/datasets/sivaakhilnukala/used-cars-price
+  - 웹툰 데이터 : https://www.kaggle.com/datasets/bmofinnjake/naverwebtoon-datakorean
 <br/>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00dbde,100:fc00ff&height=100&section=footer)
