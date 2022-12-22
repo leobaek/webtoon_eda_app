@@ -176,7 +176,7 @@ def main() :
                 st.dataframe(df_episode9.head(51))
         if genre1 == '에피소드' and genre2 == '감성':
                 st.dataframe(df_episode10.head(51))
-
+        st.subheader('웹툰 검색')
         name = st.text_input('검색어를 입력해주세요.')
 
         ## Radio button
