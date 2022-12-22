@@ -70,7 +70,7 @@ df_episode8 = df3.loc[df3['장르'].str.contains('에피소드, 일상'), ].rese
 df_episode9 = df3.loc[df3['장르'].str.contains('에피소드, 무협/사극'), ].reset_index().drop('index', axis=1)
 df_episode10 = df3.loc[df3['장르'].str.contains('에피소드, 감성'), ].reset_index().drop('index', axis=1)
 ## 에피소드
-
+st.subheader('22.06.14까지의 데이터입니다.')
 def main() :
     menu = ['네이버 웹툰 검색','믿고 보는 드라마 원작!','웹툰 분석']
     choice1 = st.sidebar.selectbox('메뉴' , menu)
