@@ -16,7 +16,12 @@ elif platform.system() == 'Linux': #리눅스 (구글 콜랩)
         #import matplotlib.font_manager as fm 
         #fm._rebuild() 
         plt.rc('font', family='Malgun Gothic') 
-plt.rcParams['axes.unicode_minus'] = False #한글 폰트 사용시 마이너스 폰트 
+plt.rcParams['axes.unicode_minus'] = False #한글 폰트 사용시 마이너스 폰트
+import platform
+from matplotlib import font_manager, rc
+plt.rcParams['axes.unicode_minus'] = False
+if platform.system() == 'Linux':
+    rc('font', family='NanumGothic') 
 
 
 
