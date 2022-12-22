@@ -40,39 +40,21 @@
 <br/>
 
 ## Datasets
-  - 차량데이터 (30824 rows × 11 columns)
-    - 제조사명
-    - 모델
-    - 변속기유형
-    - 색상
-    - 주행거리(km)
-    - 연식
-    - 연료
-    - 배기량
-    - 타입
-    - 구동
-    - 가격<br/>
+  - 웹툰 데이터 (1856 rows x 11 columns)
+    - id
+    - title
+    - author
+    - genre
+    - description
+    - rating
+    - date
+    - completed
+    - age
+    - free
+    - link
 
-  - 고객데이터 (500 rows × 9 columns)
-    - Customer Name
-    - Customer e-mail
-    - Country
-    - Gender
-    - Age
-    - Annual Salary
-    - Credit Card Debt
-    - Net Worth
-    - Car Purchase Amount
 
-## Machine Learning (data = 고객데이터 )
-<img src=https://user-images.githubusercontent.com/105832364/172328303-3b43121c-b70e-4c4a-a195-2cee778565f3.jpg width="855" height="400"/><br/>
-  - NaN 제거
-  - 학습을 위해 X , y지정
-  - 피처스케일링(scikit-learn MinMaxScaler 사용)
-  - 학습을 위해, y 의 shape 을 변경 후 피처스케일링(scikit-learn MinMaxScaler 사용)
-  - training set과 test set으로 분리 (from sklearn.model_selection import train_test_split)
-  - Linear Regression으로 모델링하고 학습 및 평가<br/>
-![image](https://user-images.githubusercontent.com/105832364/174471370-e90531ba-f2e5-4d40-bfc7-bb44369fd487.png)
+
 <br/>
 
 ## URL
@@ -83,8 +65,6 @@
 
 ## Reference
   - 차량 데이터 : https://www.kaggle.com/datasets/sivaakhilnukala/used-cars-price
-  - 고객 데이터 : https://www.kaggle.com/code/martandsay/car-purchase-amount-prediction-neural-network/notebook
-  - 메인화면 동영상 : https://www.youtube.com/watch?v=UZs758DjFgI&t=1s
 <br/>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00dbde,100:fc00ff&height=100&section=footer)
