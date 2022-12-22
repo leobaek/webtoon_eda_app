@@ -6,7 +6,17 @@ import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 import platform
 import plotly.express as px
-
+if platform.system() == 'Darwin': #맥
+        plt.rc('font', family='AppleGothic') 
+elif platform.system() == 'Windows': #윈도우
+        plt.rc('font', family='Malgun Gothic') 
+elif platform.system() == 'Linux': #리눅스 (구글 콜랩)
+        #!wget "https://www.wfonts.com/download/data/2016/06/13/malgun-gothic/malgun.ttf"
+        #!mv malgun.ttf /usr/share/fonts/truetype/
+        #import matplotlib.font_manager as fm 
+        #fm._rebuild() 
+        plt.rc('font', family='Malgun Gothic') 
+plt.rcParams['axes.unicode_minus'] = False #한글 폰트 사용시 마이너스 폰트 
 
 
 
