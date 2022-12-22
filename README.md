@@ -18,7 +18,6 @@
 [![Streamlit Badge](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![matplotlib.pyplot Badge](https://img.shields.io/badge/matplotlib.pyplot-F7931E?style=flat&logo=matplotlib.pyplot&logoColor=white)](https://matplotlib.org/stable/users/installing/index.html)
 
-<br/>
 ### Tool
 [![Anaconda Badge](https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white)](https://www.anaconda.com/products/distribution)
 [![Google Colab Badge](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=Google%20Colab&logoColor=white)](https://colab.research.google.com/?hl=ko)
