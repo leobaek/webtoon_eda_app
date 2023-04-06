@@ -1,9 +1,9 @@
 # webtoon_eda_app
 ![header](https://capsule-render.vercel.app/api?type=Waving&color=0:fc00ff,100:00dbde&height=220&section=header&text=%20NAVER%20Webtoon%20search%20of%20eda%20APP&fontSize=50&&fontColor=ffff&animation=fadeIn)
 <br/>
-### GRAPHENE911 :gem: <br/><br/>
-[![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white)](https://github.com/graphene911/)
-[![Tistory Badge](https://img.shields.io/badge/TSTORY-555263?style=flat&logoColor=white)](https://story-jy.tistory.com/)
+### leo104 :gem: <br/><br/>
+[![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white)](https://github.com/leo104/)
+[![Tistory Badge](https://img.shields.io/badge/TSTORY-555263?style=flat&logoColor=white)](https://leo104.tistory.com/)
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:graphene9110@gmail.com)
 <br/>
 
